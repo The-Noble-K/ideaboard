@@ -13,8 +13,38 @@
   width: 250px;
   margin: 10px;
   padding: 10px;
-  background: purple;
+  background: darkorchid;
   font-size: 14px;
   text-align: center;
   float: left;
+}
+
+.newIdeaButton {
+  background: darkcyan;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.input {
+  border: 0;
+  background: none;
+  outline: none;
+  margin-top: 10px;
+  width: 140px;
+  font-size: 13px;
+  color: black;
+}
+
+.input:focus {
+  border: solid 1px darkgray
+}
+
+textarea {
+  resize: none;
+  height: 90x;
+  font-size: 13px;
 }
